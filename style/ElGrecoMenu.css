@@ -1,0 +1,21 @@
+.img-menu{
+    display:flex;
+    justify-content: space-around;
+  }
+  .GoBbtn{
+    cursor: pointer;
+    margin-left: 48%;
+    margin-top: 2rem;
+    background:   rgb(90, 134, 255);
+    border: none;
+    border-radius: 5px;
+    padding:       10px 15px;
+    color:         #ffffff;
+    font:          normal 15px/1 "Roboto", sans-serif;
+    text-align:    center;
+    text-shadow:   1px 1px #000000;
+  }
+  .GoBbtn:hover{
+    background:    rgb(4, 0, 255);
+  }
+  
