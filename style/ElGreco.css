@@ -152,7 +152,7 @@ footer{
 .dropbtn{
   display: none;
   margin-left: 28vw;
-  margin-top:7vh;
+  margin-top:20px;
   border: none;
   padding: 50px 10px;
   font-size: 20px;
@@ -178,7 +178,7 @@ footer{
 .dropdown-content-reveal{
   display:flex;
   flex-direction: column;
-  margin-left: 9vw;
+  margin-left: 15vw;
   padding-top:10px;
   text-align: center;
 }
