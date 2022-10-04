@@ -12,7 +12,7 @@ body{
 }
 @media (max-width: 900px) {
     .logo {
-        margin-top: 20%;
+        margin-top: 5px;
     }
   }
   .navbarcontainer{
