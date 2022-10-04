@@ -29,14 +29,13 @@ body{
     display: flex;
     margin-top: 50px;
     margin-left: 10%;
-    font-family: 'Courier New', monospace;
 }
 @media (max-width: 900px) {
     .hyperlinks {
         flex-direction: column;
         margin-top: 10px;
         margin-bottom: 15px;
-        margin-left: 45vw;
+        margin-left: 30vw;
     }
   }
 a{
