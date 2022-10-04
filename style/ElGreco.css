@@ -153,15 +153,16 @@ footer{
   margin-left: 50vw;
   margin-top:7vh;
   border: none;
-  color: rgb(252, 250, 250);
   padding: 50px 10px;
   font-size: 20px;
   cursor: pointer;
-  background-color: rgb(168, 168, 168);
+  border-style: groove;
+  border-color: black;
+  background-color: white;
   padding: 10px;
 }
 .dropbtn:hover{
-  background-color: rgb(175, 175, 175);
+  background-color: rgb(218, 218, 218);
 
 }
 .dropdown-content-hide{
@@ -172,12 +173,14 @@ footer{
     display:flex;
   }
 }
+@media (max-width: 1000px){
 .dropdown-content-reveal{
   display:flex;
   flex-direction: column;
-  margin-left: 42vw;
+  margin-left: 39vw;
   padding-top:10px;
-  background-color: rgb(175, 175, 175);
+  text-align: center;
+}
 }
 
 .dropdown-content-reveal a{
