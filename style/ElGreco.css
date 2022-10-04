@@ -8,6 +8,7 @@ body{
     width: 8rem;
     height:5rem;
     border-radius: 50px;
+    margin-left: 20px;
 }
 @media (max-width: 900px) {
     .logo {
@@ -177,7 +178,7 @@ footer{
 .dropdown-content-reveal{
   display:flex;
   flex-direction: column;
-  margin-left: 10vw;
+  margin-left: 9vw;
   padding-top:10px;
   text-align: center;
 }
