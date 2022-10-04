@@ -37,17 +37,9 @@ body{
     margin-top: 50px;
     margin-left: 10%;
 }
-@media (max-width: 900px) {
-  .hp {
-      margin-bottom: 10px;
-  }
-}
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .hyperlinks {
-        flex-direction: column;
-        margin-top: 18px;
-        margin-bottom: 8px;
-        margin-left: 30vw;
+        display: none;
     }
   }
 a{
@@ -72,8 +64,6 @@ a:hover{
 @media (max-width: 1100px) {
     .social-container{
       display:none;
-      
-
     }
   }
 
@@ -123,9 +113,6 @@ a:hover{
       margin-right: auto;
       width: 110%;
       height:35vh;
-      
-     
-
     }
   }
 .main p{
@@ -142,7 +129,7 @@ footer{
     margin-top:20rem;
 }
 
-#myBtn {
+#Btn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -158,11 +145,47 @@ footer{
     font-size: 20px; /* Increase font size */
   }
   
-  #myBtn:hover {
+  #Btn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
-  
+.dropbtn{
+  display: none;
+  margin-left: 50vw;
+  margin-top:7vh;
+  border: none;
+  color: rgb(252, 250, 250);
+  padding: 50px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(168, 168, 168);
+  padding: 10px;
+}
+.dropbtn:hover{
+  background-color: rgb(175, 175, 175);
 
-  
+}
+.dropdown-content-hide{
+  display: none;
+}
+@media (max-width: 1000px) {
+  .dropbtn{
+    display:flex;
+  }
+}
+.dropdown-content-reveal{
+  display:flex;
+  flex-direction: column;
+  margin-left: 42vw;
+  padding-top:10px;
+  background-color: rgb(175, 175, 175);
+}
 
- 
+.dropdown-content-reveal a{
+  font-size:20px;
+  padding:10px;
+}
+
+.toggle-nav-cont{
+  display:flex;
+  flex-direction: column;
+}
