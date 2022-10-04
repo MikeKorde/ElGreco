@@ -1,8 +1,8 @@
 *{
-    margin: 5px;
+    margin: 0px;
 }
 body{
-    font-family: cursive;
+  font-family: "Goudy Bookletter 1911", sans-serif;
 }
 .logo{
     width: 8rem;
@@ -27,15 +27,16 @@ body{
 
 .hyperlinks{
     display: flex;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 10%;
+    font-family: 'Courier New', monospace;
 }
 @media (max-width: 900px) {
     .hyperlinks {
         flex-direction: column;
-        margin-top: 1px;
+        margin-top: 10px;
         margin-bottom: 15px;
-        padding-right: 120rem;
+        margin-left: 45vw;
     }
   }
 a{
@@ -56,7 +57,6 @@ a:hover{
 .social-container{
     display: flex;
     margin-top: -1%;
-    padding-left: 16px;;  
 }
 @media (max-width: 1100px) {
     .social-container{
@@ -93,7 +93,30 @@ a:hover{
         border-color: rgb(0, 0, 0); 
     }
   }
+.eikona{
+  width: 40vw;
+  height:60vh;
+  order:1;
+}
+  @media (max-width: 1000px) {
+    .keimeno{
+      order:2;
+      width: 120%;
+      margin-left: -10%;
+    }
+  }
+  @media (max-width: 1000px) {
+    .eikona{
+      order: 1;
+      margin-left: auto;
+      margin-right: auto;
+      width: 110%;
+      height:35vh;
+      
+     
 
+    }
+  }
 .main p{
     margin:6rem;
 
