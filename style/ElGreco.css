@@ -204,7 +204,7 @@ footer{
 .dropdown-content-reveal{
   display:flex;
   flex-direction: column;
-  margin-left: 15vw;
+  margin-left: 10vw;
   padding-top:10px;
   text-align: center;
 }
