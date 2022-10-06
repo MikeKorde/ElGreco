@@ -31,3 +31,27 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+h3{
+  text-align: center;
+}
+
+.GoBbtn{
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 45vw;
+  background:   rgb(90, 134, 255);
+  border: none;
+  border-radius: 5px;
+  padding:       10px 15px;
+  color:         #ffffff;
+  font:          normal 15px/1 "Roboto", sans-serif;
+  text-align:    center;
+  text-shadow:   1px 1px #000000;
+}
+.GoBbtn:hover{
+  background:    rgb(4, 0, 255);
+}
+
+.container{
+  background-image: none;
+}

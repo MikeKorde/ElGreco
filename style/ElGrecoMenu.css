@@ -1,10 +1,11 @@
 .img-menu{
+    margin-top: 40px;
     display:flex;
     justify-content: space-around;
   }
   .GoBbtn{
     cursor: pointer;
-    margin-left:45%;
+    margin-left: 45vw;
     background:   rgb(90, 134, 255);
     border: none;
     border-radius: 5px;
@@ -18,3 +19,12 @@
     background:    rgb(4, 0, 255);
   }
   
+  @media (max-width: 800px) {
+    .GoBbtn{
+      margin-top:40px;
+      margin-left: 38vw;
+    }
+    }
+  .container{
+    background-image: none;
+  }
