@@ -8,8 +8,15 @@ body{
 .container{
   background-image: url('../images/background.jpg');
   background-repeat:no-repeat;
-  background-size: 100% 16%;
-} 
+  background-size: 100% 15%;
+}  
+@media (max-width: 900px) {
+  .container {
+    background-image: url('../images/background.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 50px;
+  }
+}
 .gap{
   display: block;
   background-image: url('../images/gap.jpg');
