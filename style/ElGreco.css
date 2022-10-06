@@ -3,26 +3,37 @@
 }
 body{
   font-family: "Goudy Bookletter 1911", sans-serif;
+  background-image: url('../images/back.webp');
+}
+.container{
+  background-image: url('../images/background.jpg');
+  background-repeat:no-repeat;
+  background-size: 100% 16%;
+} 
+.gap{
+  display: block;
+  background-image: url('../images/gap.jpg');
+  background-color: #000000;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  color:white;
+  font-size: 25px;
+  text-align: center;
 }
 .logo{
     width: 8rem;
     height:5rem;
     border-radius: 50px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 @media (max-width: 900px) {
     .logo {
         margin-top: 5px;
     }
   }
-  .navbarcontainer{
-    display: flex;
-    flex-direction: row;
-    position:sticky;
-    top: 0;
-    width: 100%;
-  }
 .navbar{
+    background-image: url('../images/navback.jpg');
+    background-size: 100%;
     display: flex;
     flex-direction: row;
     position:sticky;
@@ -30,13 +41,14 @@ body{
     width: 100%; 
     background-color: rgb(255, 255, 255);
     border-bottom-style:double;
-    border-color: rgb(156, 156, 253);    
+    border-color: rgb(156, 156, 253);   
+ 
 }
 
 .hyperlinks{
     display: flex;
     margin-top: 50px;
-    margin-left: 10%;
+    margin-left: 100px;
 }
 @media (max-width: 1000px) {
     .hyperlinks {
@@ -47,7 +59,7 @@ a{
     color:#503f3f;
     text-decoration: none;
     margin-top:10%;
-    margin-left:20px;
+    margin-left:60px;
     font-size:15px;
     width: 100px;
     text-shadow: 0 0 1px #000000;
@@ -61,6 +73,8 @@ a:hover{
 .social-container{
     display: flex;
     margin-top: -1%;
+    float: right;
+    
 }
 @media (max-width: 1100px) {
     .social-container{
@@ -68,9 +82,11 @@ a:hover{
     }
   }
 
-.mainphoto{
+.maintext{
     display: flex;
-    justify-content: center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size:25px;
     margin-top: 9rem;
     animation: zoom-in 4s ;
 }
@@ -99,6 +115,9 @@ a:hover{
   width: 40vw;
   height:60vh;
   order:1;
+}
+.keimeno{
+  font-size: 30px;
 }
   @media (max-width: 1000px) {
     .keimeno{
