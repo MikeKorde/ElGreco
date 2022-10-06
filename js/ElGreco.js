@@ -25,4 +25,7 @@ function Reveal() {
   } else {
     x.className = "dropdown-content-hide";
   }
+  if(!"index.html" == location.href) {
+    x.className = "dropdown-content-secondhide";
+}
 }

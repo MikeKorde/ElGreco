@@ -55,6 +55,7 @@ h3{
 .container{
   background-image: none;
 }
-.dropdown-content-reveal{
-  display: none;
+
+.dropdown-content-secondhide{
+  display:none
 }

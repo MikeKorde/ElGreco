@@ -220,6 +220,9 @@ footer{
     
   }
 }
+.dropdown-content-reveal{
+  display:none;
+}
 @media (max-width: 800px){
 .dropdown-content-reveal{
   display:flex;
