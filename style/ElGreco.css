@@ -14,7 +14,7 @@ body{
   .container {
     background-image: url('../images/background.jpg');
     background-repeat:no-repeat;
-    background-size: 100% 12%;
+    background-size: 100% 15%;
   }
 }
 .gap{
@@ -132,13 +132,14 @@ a:hover{
   order:1;
 }
 .keimeno{
-  font-size: 30px;
+  font-size: 25px;
 }
   @media (max-width: 1000px) {
     .keimeno{
       order:2;
       width: 120%;
       margin-left: -10%;
+      font-size: 18px;
     }
   }
   @media (max-width: 1000px) {
@@ -212,7 +213,7 @@ footer{
 .dropdown-content-reveal{
   display:flex;
   flex-direction: column;
-  margin-left: 10vw;
+  margin-left: 2vw;
   padding-top:10px;
   text-align: center;
 }
