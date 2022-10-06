@@ -14,7 +14,7 @@ body{
   .container {
     background-image: url('../images/background.jpg');
     background-repeat:no-repeat;
-    background-size: 100% 50px;
+    background-size: 100% 12%;
   }
 }
 .gap{
@@ -96,6 +96,14 @@ a:hover{
     font-size:25px;
     margin-top: 9rem;
     animation: zoom-in 4s ;
+}
+@media (max-width: 900px) {
+  .maintext{
+    display: flex;
+    text-align: center;
+    font-size:20px;
+    margin-top: 2rem;
+  }
 }
 @keyframes zoom-in {
     from {
